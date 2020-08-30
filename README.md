@@ -44,3 +44,5 @@ emisor/autorizacion?tarjeta=___&nombre=___&fecha_venc=___& num_seguridad=___&mon
   }
 }
 ```
+
+El status será **APROBADO** ó **DENEGADO**, si es denegado el número es **0**.
