@@ -19,7 +19,7 @@ deberá tomar cumplir lo siguiente:
 * Los números de tarjeta 16 dígitos (sin guiones)
 * Para la fecha de vencimiento usar el formato: yyyymm
 
-Para solicitar la autorización del pago:
+Para solicitar la autorización del pago:  
 emisor/autorizacion?tarjeta=___&nombre=___&fecha_venc=___& num_seguridad=___&monto=___&tienda=___&formato=__
 
 ##### XML
