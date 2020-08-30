@@ -1,3 +1,4 @@
+<!--
 <html>
 <head>
     <title>Master Card</title>
@@ -5,12 +6,10 @@
 </head>
 <body>
     <header>
-
     <div class="row">
         <div class="logo">
         <img src="sources/logo.svg"
         </div>
-
     <ul class="main-nav">
         <li class="active"><a href=""> HOME </a></li>
         <li><a href=""> MENU </a></li>
@@ -20,22 +19,22 @@
         <li><a href=""> NEWS </a></li>
         <li><a href=""> FAQ </a></li>
     </ul>
-
     </div>
-
     <div class="hero">
     <h1>MASTA CAR ?</h1>
-
     <div class="button">
         <a href="" class="btn btn-one"> Watch Video</a>
         <a href="" class="btn btn-two"> Explore More</a>
     </div>
-
     </div>
-
     </header>
-
-
-
 </body>
-</html>
+</html> -->
+<?php require "assets\header.php" ?>
+
+
+  <main>
+
+  </main>
+
+<?php require "assets\footer.php" ?>
