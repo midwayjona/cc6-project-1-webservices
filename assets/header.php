@@ -29,7 +29,7 @@
 
 
       <div class="header-login">
-        <form action="includes/login.inc.php" method="post">
+        <form class="login-from" action="includes/login.inc.php" method="post">
           <input type="text" name="userid" placeholder="Username">
           <input type="password" name="userpwd" placeholder="Password">
           <button class="btn btn-two" type="summit" name="login-submit">Login</button>
