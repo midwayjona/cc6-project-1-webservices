@@ -1,40 +1,21 @@
 <!--
-<html>
-<head>
-    <title>Master Card</title>
-    <link href="style.css" rel="stylesheet" type="text/css">
-</head>
-<body>
-    <header>
-    <div class="row">
-        <div class="logo">
-        <img src="sources/logo.svg"
-        </div>
-    <ul class="main-nav">
-        <li class="active"><a href=""> HOME </a></li>
-        <li><a href=""> MENU </a></li>
-        <li><a href=""> SERVICES </a></li>
-        <li><a href=""> ABOUT </a></li>
-        <li><a href=""> CONTACT </a></li>
-        <li><a href=""> NEWS </a></li>
-        <li><a href=""> FAQ </a></li>
-    </ul>
-    </div>
-    <div class="hero">
-    <h1>MASTA CAR ?</h1>
-    <div class="button">
-        <a href="" class="btn btn-one"> Watch Video</a>
-        <a href="" class="btn btn-two"> Explore More</a>
-    </div>
-    </div>
-    </header>
-</body>
-</html> -->
-<?php require "assets\header.php" ?>
+
+ -->
+
+
+
+<?php require "assets/header.php" ?>
+
+<div class="main-bg">
 
 
   <main>
 
+    <?php require "assets/filler.php" ?>
+
   </main>
 
-<?php require "assets\footer.php" ?>
+
+
+</div>
+<?php require "assets/footer.php" ?>
