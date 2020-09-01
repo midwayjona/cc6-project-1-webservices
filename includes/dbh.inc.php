@@ -1,7 +1,19 @@
 <?php
 
-$serverhost = 'pgsql:host=localhost;dbname=cc6-pj1';
-$dbusername = 'midwayjona';
+$dbHost = 'localhost';
+$dbName = 'cc6-pj1';
+$dbUser = 'midwayjona';
 $dbPassword = '';
 
-$conn = new PDO($serverhost, $dbusername, $dbPassword);
+// Set DSN (datasource name)
+$dbDSN = 'pgsql:host='.$dbHost.';dbname='.$dbName;
+
+// PDO Instance
+try {
+  $conn = new PDO($dbDSN, $dbUser, $dbPassword);
+  $conn->setAttribute(PDO::ATTR_DEFAULT_FETCH_MODE, PDO::FETCH_OBJ);
+} catch (PDOException $e) {
+  echo $e->getMessage();
+}
+
+ ?>
