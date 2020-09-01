@@ -1,12 +1,3 @@
-<!DOCTYPE html>
-<html>
-<head>
-  <meta charset="utf-8">
-  <meta name="description" content="Credit Card issuer">
-  <meta name="viewport" content="width=device-width, initial-scale=1">
-  <title>Master Card</title>
-  <link rel="stylesheet" href="css/style.css">
-</head>
 
 <div class="filler-box1">
   <div class="filler-text">
@@ -15,10 +6,19 @@
 </div>
 </div>
 
-<div class="filler-box2">
-  <div class="filler-text" style="text-align:right!important;left: 75%;">
-    <h1>We stand against racism</h1>
-</div>
+<div class="filler-box2"><br><br>
+  <span>PARENT COMPANY</span>
+  <div class="title" title="Master Card">mastecard</div>
+
+  <div class="filler-text1">
+    <p>Our <b>mission</b> is to connect and power an inclusive, digital economy that benefits everyone, everywhere by making transactions safe, simple, smart and accessible. We understand how interconnected the world is, and we see firsthand how our commitment to environmental and social responsibility – and our core values of operating ethically and responsibly and with decency – is directly connected to our continuing success as a business.</p>
+    <br>
+    <p>We are all in this crisis together, but we have a choice about how we come out of it: We can put things back the way they were before, or we can work together to rebuild a better, stronger, more resilient and more inclusive digital economy, one that benefits everyone, everywhere.</p>
+    <br>
+    <h1>employee benefits</h1>
+    <br>
+    <p>    Mastercard is not only a place where you can be you, it’s a place where your passion leads to possibilities – in your life, in your career and in the world. We have created benefits that enable you to unlock your potential in all areas of your life:</p>
+  </div>
 </div>
 
 <div class="filler-box3">

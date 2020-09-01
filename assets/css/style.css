@@ -13,11 +13,14 @@ html {
   background: transparent;  /* Optional: just make scrollbar invisible */
 }
 
-body
-{
-    font-family: sans-serif;
+body {
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    display: table;
+    font-weight: 100;
+    font-family: 'Roboto', sans-serif;
 }
-
 .header-logo {
   align-items: center;
   text-decoration: none;
@@ -232,7 +235,7 @@ main
 .main-bg
 {
   position: relative;
-  height: 80vh;
+  height: 78vh;
   background-size: cover;
   background-position: center;
 }
@@ -247,12 +250,13 @@ main
   box-sizing: border-box;
   width: 100%;
   text-align: left;
-  font: bold 16px sans-serif;
+  font-family: "Montserrat", sans-serif;
   padding: 25px 50px;
 }
 
 footer{
 	bottom: 0;
+  font-family: "Montserrat", sans-serif;
 }
 .footer-distributed{
 	background-color: #141413;
@@ -260,9 +264,8 @@ footer{
 	box-sizing: border-box;
 	width: 100%;
 	text-align: left;
-	font: bold 16px sans-serif;
 
-	padding: 55px 50px;
+	padding: 15px 10px;
 }
 
 .footer-distributed .footer-left,
@@ -296,7 +299,7 @@ footer{
 	display:inline-block;
 	line-height: 1.8;
 	text-decoration: none;
-	color:  inherit;
+	color:  #F79E1B;
 }
 
 .footer-distributed .footer-company-name{
@@ -331,6 +334,7 @@ footer{
 
 .footer-distributed .footer-center img{
   width: 90px;
+  padding-top: 1rem;
 }
 
 .footer-distributed .footer-center p{
@@ -349,17 +353,20 @@ footer{
 }
 
 .footer-distributed .footer-center p a{
-	color:  #bbb;
+	color:  #FF5F00;
 	text-decoration: none;
 }
-
+.footer-distributed .footer-center p a:hover{
+	color: #FF5F00;
+	text-decoration: none;
+}
 .footer-distributed .footer-right{
 	width: 20%;
 }
 
 .footer-distributed .footer-company-about{
 	line-height: 20px;
-	color:  #92999f;
+	color:  #ccc;
 	font-size: 13px;
 	font-weight: normal;
 	margin: 0;
@@ -367,7 +374,7 @@ footer{
 
 .footer-distributed .footer-company-about span{
 	display: block;
-	color:  #bbb;
+	color:  #ccc;
 	font-size: 14px;
 	font-weight: bold;
 	margin-bottom: 20px;
@@ -377,7 +384,7 @@ footer{
   display: flex;
   width: 100%;
   height: 400px;
-  background-image:linear-gradient(rgba(0,0,0,0.3),rgba(0,0,0,0.5)),url(../media/bridge.jpg);
+  background-image:linear-gradient(rgba(0,0,0,0.3),rgba(0,0,0,0.5)),url(https://www.mastercard.us/content/dam/public/mastercardcom/na/us/en/vision/images/sustainability/bird-view-to-bridge-darker-1300x650.jpg);
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
@@ -385,13 +392,8 @@ footer{
 }
 
 .filler-box2 {
-  display: flex;
   width: 100%;
-  height: 400px;
-  background-image:linear-gradient(rgba(0,0,0,0.3),rgba(0,0,0,0.5)),url(../media/racism.jpg);
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: cover;
+
   position: relative;
 }
 .filler-box3 {
@@ -410,11 +412,26 @@ footer{
   text-align: left;
   position: absolute;
   top: 50%;
-  left: 40%;
+  left: 30%;
   transform: translate(-50%, -50%);
   color: white;
 
 }
+
+.filler-text1 {
+  font-size: 1.25rem;
+  width: 70%;
+  text-align: left;
+  position: relative;
+  top: 20%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: black;
+  margin-top: 15rem;
+  margin-bottom: -10rem;
+
+}
+
 
 .filler-text a {
   color:  #bbb;
@@ -422,14 +439,21 @@ footer{
 
 }
 
-.filler-text h1 {
+.filler-text1 h1 {
   color: white;
   align-items: center;
   position: absolute;
   font-size: 26px;
-  font-family: "Roboto", sans-serif;
+  font-family: "Montserrat", sans-serif;
 }
 
+.filler-text1 h1 {
+  color: black;
+  align-items: center;
+  position: relative;
+  font-size: 26px;
+  font-family: "Montserrat", sans-serif;
+}
 .filler-text span {
   color: #bbb;
   font-size: 14px;
@@ -471,6 +495,7 @@ footer{
   max-width: 300px;
   width:50%;
   margin:0 auto;
+  margin-top: 2rem;
   text-align:center;
 }
 
@@ -496,4 +521,45 @@ footer{
 
 .signup-form .btn {
   margin: 2rem;
+}
+
+
+
+
+.content {
+  margin:0 auto;
+  position: relative;
+  text-align: center;
+  display: table-cell;
+  vertical-align: middle;
+  width: 50%;
+}
+
+
+
+.title {
+    font-size: 78px;
+}
+
+.opt {
+    margin-top: 30px;
+    font-size: 150%;
+}
+
+
+.opt-cont {
+    margin-top: 30px;
+    text-align: left;
+}
+
+.opt-cont a {
+  text-decoration: none;
+  font-size: 150%;
+}
+
+a:hover {
+  color: red;
+}
+li {
+  list-style-type: none;
 }

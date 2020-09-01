@@ -1,28 +1,18 @@
-<!DOCTYPE html>
-<html>
-<head>
-  <meta charset="utf-8">
-  <meta name="description" content="Credit Card issuer">
-  <meta name="viewport" content="width=device-width, initial-scale=1">
-  <title>Master Card</title>
-  <link rel="stylesheet" href="assets/css/style.css">
-</head>
 
-<div class="pre-foot"> Master Card </div>
-
+<div class="pre-foot"><b>Master Card</b></div>
 <footer class="footer-distributed">
+
   <div class="footer-left">
     <p class="footer-links">
-      <a href="#">Home</a> ·
-      <a href="#">Pricing</a> ·
-      <a href="#">About</a> ·
+      <a href="#">Home</a>&nbsp;&nbsp;>&nbsp;&nbsp;
+      <a href="#">About</a>&nbsp;&nbsp;>&nbsp;&nbsp;
       <a href="#">Contact</a>
     </p>
-    <p class="footer-company-name">&copy; 1994-2020 Mastercard.</p>
+    <p class="footer-company-name">&copy; 1994-2020 <b>Mastercard</b>.</p>
   </div>
 
   <div class="footer-center">
-    <img src="assets/media/logo.svg" alt="logo">
+    <img src="<?php echo $path ?>assets/media/logo.svg" alt="logo">
   </div>
 
   <div class="footer-right">
