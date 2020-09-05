@@ -17,12 +17,15 @@ if (isset($_POST['signup-submit'])) {
     if ($result == FALSE) {
     // if NULL cid not exist
     header("Location: ../assets/signup.php?status=ID_NOT_FOUND");
+    exit();
   } elseif ($result->cid != $cid) {
     // id dont match
     header("Location: ../assets/signup.php?status=ID_NOT_FOUND");
+    exit();
   } elseif ($result->cuser == $cuser) {
     // id with user
     header("Location: ../assets/signup.php?status=ID_ASSIGNED");
+    exit();
   }
 
   // username needs to be unique
@@ -30,65 +33,25 @@ if (isset($_POST['signup-submit'])) {
   $stmt = $conn->prepare($sql);
   $stmt->execute(['cuser' => $cuser]);
   $result = $stmt->fetchObject();
-  if ($result > 0) { header("Location: ../assets/signup.php?status=USER_EXIST"); }
+  if ($result > 0) { header("Location: ../assets/signup.php?status=USER_EXIST"); exit(); }
 
   // email needs to be unique
   $sql = 'SELECT cuser FROM costumer WHERE cemail=:cemail';
   $stmt = $conn->prepare($sql);
   $stmt->execute(['cemail' => $cmail]);
   $result = $stmt->fetchObject();
-  if ($result > 0) { header("Location: ../assets/signup.php?status=EMAIL_EXIST"); }
+  if ($result > 0) { header("Location: ../assets/signup.php?status=EMAIL_EXIST"); exit(); }
 
   // id, username and email verificated
-  $sql = 'UPDATE costumer SET cuser=:cuser, cemail=:cemail, cpwd=:cpwd WHERE cid=:cid';
+  $sql = 'UPDATE costumer SET cuser=:cuser, cemail=:cemail, cpassword=:cpwd WHERE cid=:cid';
   $stmt = $conn->prepare($sql);
-  $stmt->execute(['cuser' => $cuser, 'cemail' => $cmail, 'cpwd' => $cpwd, 'cid' => $cid]);
+  $hashedPwd = password_hash($cpwd, PASSWORD_DEFAULT);
+  $stmt->execute(['cuser' => $cuser, 'cemail' => $cmail, 'cpwd' => $hashedPwd, 'cid' => $cid]);
+  header("Location: ../assets/signup.php?status=SUCCESS"); exit();
 
-  print_r($stmt);
-
-  echo "<br><br>id: ".$cid;
-  echo "<br>user: ".$cuser;
-  echo "<br>email: ".$cmail;
-  echo "<br><br>";
-  print_r( $conn->errorInfo() );
-
-
-
-
-
-
-    // if ($result != NULL) {
-    //   // code...
-    //   header("Location: ../assets/signup.php?status=USER_EXIST");
-    // } else {
-    //   // code...
-    //   header("Location: ../assets/signup.php?status=YOURUCK");
-    //
-    //   echo $result;
-    // }
-
-
-      // // if more than 0 objects fetch, then user already exist
-      // if ($row == NULL) {
-      //   header("Location: ../assets/signup.php?status=$cid_temp");
-      // }
-
-
-    // }
-
-
-
-
-    // if ($stmt->execute([$cid])) {
-    //   while ($row = $stmt->fetch(PDO::FETCH_ASSOC)) {
-    //     echo $row['cid'].'<br>';
-    //   }
-    // }
-    // if ($stmt->execute([$cid])) {
-    //   while ($row = $stmt->fetch(PDO::FETCH_OBJ)) {
-    //     echo $row->cid.'<br>';
-    //   }
-    // }
-
-
+  $conn = NULL;
+} else {
+  // code...
+  header("Location: ../assets/signup.php");
+  exit();
 }
