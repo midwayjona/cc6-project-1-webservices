@@ -1,5 +1,7 @@
 
+
 <div class="pre-foot"><b>Master Card</b></div>
+
 <footer class="footer-distributed">
 
   <div class="footer-left">

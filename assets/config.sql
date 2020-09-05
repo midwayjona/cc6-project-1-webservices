@@ -48,7 +48,7 @@ VALUES(
   NULL,
   NULL,
   '89562374',
-  'null',
+  NULL,
   'Santa Monica, CA 90401',
   FALSE
 );
@@ -62,7 +62,7 @@ VALUES(
   NULL,
   NULL,
   '98653245',
-  'null',
+  NULL,
   'Los Angeles, CA 90581',
   FALSE
 );
@@ -76,7 +76,7 @@ VALUES(
   NULL,
   NULL,
   '98653245',
-  'null',
+  NULL,
   'New York, NY 10003',
   FALSE
 );
