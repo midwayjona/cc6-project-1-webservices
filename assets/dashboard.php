@@ -332,6 +332,8 @@ include $path.'assets/header.php';
                         <th scope="col">Account Number</th>
                         <th scope="col"></th>
                         <th scope="col"></th>
+                        <th scope="col"></th>
+                        <th scope="col"></th>
                         <th scope="col">Balance</th>
                       </tr>
                     </thead>
