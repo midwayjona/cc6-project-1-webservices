@@ -6,8 +6,8 @@ $dbName = 'cc6-pj1';
 $dbUser = 'midwayjona';
 $dbPassword = '';
 // inmotion
-// $dbName = 'stateh7_cc6-pj1';
-// $dbUser = 'stateh7_midwayjona';
+// $dbName = 'stateh7_cc6_pj1';
+// $dbUser = 'stateh7_cc6_user';
 // $dbPassword = 'xzhX8DnnLIbB';
 
 // Set DSN (datasource name)
@@ -20,5 +20,3 @@ try {
 } catch (PDOException $e) {
   echo $e->getMessage();
 }
-
- ?>

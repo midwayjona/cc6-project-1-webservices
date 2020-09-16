@@ -1,5 +1,4 @@
-*
-{
+* {
   margin: 0;
   padding: 0;
 }
@@ -8,30 +7,33 @@ html {
   overflow: scroll;
   overflow-x: hidden;
 }
+
 ::-webkit-scrollbar {
-  width: 0px;  /* Remove scrollbar space */
-  background: transparent;  /* Optional: just make scrollbar invisible */
+  width: 0px;
+  /* Remove scrollbar space */
+  background: transparent;
+  /* Optional: just make scrollbar invisible */
 }
 
 body {
-    margin: 0;
-    padding: 0;
-    width: 100%;
-    display: table;
-    font-weight: 100;
-    font-family: 'Roboto', sans-serif;
+  margin: 0;
+  padding: 0;
+  width: 100%;
+  display: table;
+  font-weight: 100;
+  font-family: 'Roboto', sans-serif;
 }
+
 .header-logo {
   align-items: center;
   text-decoration: none;
   padding: 0px 25px 0px 50px;
-
 }
+
 .header-logo img {
   width: 80px;
   height: auto;
 }
-
 
 .header-login {
   float: right;
@@ -47,82 +49,64 @@ header {
   align-items: center;
 }
 
-
-
 header * {
-    display: inline;
+  display: inline;
 }
 
 header li {
-    margin: 5px;
-    background-color: #141413;
+  margin: 5px;
+  background-color: #141413;
 }
 
 header li a {
-    color: white;
-    text-decoration: none;
-    padding: 5px 20px;
-    border: 1px solid #141413;
+  color: white;
+  text-decoration: none;
+  padding: 5px 20px;
+  border: 1px solid #141413;
 }
 
 header li a:hover {
-    border: 1px solid #323231;
+  border: 1px solid #323231;
 }
 
-
-.button
-{
-    margin-top: 30px;
-    margin-left: 440px;
-}
-.btn
-{
-
-    border: 1px solid white;
-    padding: 10px 30px;
-    margin: -10px -10px -10px 10px;
-    color: white;
-    text-decoration: none;
-    margin-right: 5px;
-    font-size: 13px;
-    text-transform: uppercase;
+.button {
+  margin-top: 30px;
+  margin-left: 440px;
 }
 
-.btn-w
-{
-    background-color: white;
-    font-family: "Roboto", sans-serif;
+.btn {
+  border: 1px solid white;
+  padding: 10px 30px;
+  margin: -10px -10px -10px 10px;
+  color: white;
+  text-decoration: none;
+  margin-right: 5px;
+  font-size: 13px;
+  text-transform: uppercase;
 }
 
-.btn-one
-{
-    background-color: darkorange;
-    font-family: "Roboto", sans-serif;
+.btn-w {
+  background-color: white;
+  font-family: "Roboto", sans-serif;
 }
 
-.btn-two
-{
-    font-family: "Roboto", sans-serif;
-    color: black;
-
+.btn-one {
+  background-color: darkorange;
+  font-family: "Roboto", sans-serif;
 }
 
-
-.btn-two:hover
-{
-    background-color: darkorange;
-    transition: all 0.5s ease-in;
-    border: 1px solid black;
-
+.btn-two {
+  font-family: "Roboto", sans-serif;
+  color: black;
 }
 
+.btn-two:hover {
+  background-color: darkorange;
+  transition: all 0.5s ease-in;
+  border: 1px solid black;
+}
 
-
-
-
-
-
-.login-from input[type=text], select, textarea{
+.login-from input[type=text], select, textarea {
   width: 200px;
   padding: 12px;
   border: 1px solid #000;
@@ -131,7 +115,7 @@ header li a:hover {
   resize: vertical;
 }
 
-.login-from input[type=password], select, textarea{
+.login-from input[type=password], select, textarea {
   width: 200px;
   padding: 12px;
   border: 1px solid #000;
@@ -140,108 +124,72 @@ header li a:hover {
   resize: vertical;
 }
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-.row
-{
-    max-width: 1200px;
-    margin: auto;
+.row {
+  max-width: 1200px;
+  margin: auto;
 }
 
-.main-nav
-{
-    float: right;
-    list-style: none;
-    margin-top: 30px;
-    margin-right: 30px;
+.main-nav {
+  float: right;
+  list-style: none;
+  margin-top: 30px;
+  margin-right: 30px;
 }
 
-.main-nav-sign
-{
-    float: right;
-    list-style: none;
-    margin-top: 30px;
-    margin-right: 30px;
-}
-.main-nav li
-{
-    display: inline-block;
+.main-nav-sign {
+  float: right;
+  list-style: none;
+  margin-top: 30px;
+  margin-right: 30px;
 }
 
-.main-nav li.active a
-{
-    border: 1px solid black;
-
+.main-nav li {
+  display: inline-block;
 }
 
-.main-nav li a:hover
-{
-    border: 1px solid black;
+.main-nav li.active a {
+  border: 1px solid black;
 }
 
-
-.main-nav li a
-{
-    color: black;
-    text-decoration: none;
-    padding: 5px 20px;
-    font-family: "Roboto", sans-serif;
-    font-size: 15px;
-    border: 1px solid white;
+.main-nav li a:hover {
+  border: 1px solid black;
 }
 
-.hero
-{
-    position: absolute;
-    width: 1200px;
-    margin-left: 0px;
-    margin-top: 0px;
-
+.main-nav li a {
+  color: black;
+  text-decoration: none;
+  padding: 5px 20px;
+  font-family: "Roboto", sans-serif;
+  font-size: 15px;
+  border: 1px solid white;
 }
 
+.hero {
+  position: absolute;
+  width: 1200px;
+  margin-left: 0px;
+  margin-top: 0px;
+}
 
-
-
-
-
-
-
-
-main
-{
+main {
   background-color: white;
   position: absolute;
   width: 60%;
   height: 100%;
   overflow: auto;
   margin: auto;
-  top: 0; left: 0; bottom: 0; right: 0;
-
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
 }
 
-.main-bg
-{
+.main-bg {
   position: relative;
   height: 78vh;
   background-size: cover;
   background-position: center;
 }
-
-
-
 
 .pre-foot {
   background-color: #323231;
@@ -254,137 +202,137 @@ main
   padding: 25px 50px;
 }
 
-footer{
-	bottom: 0;
+footer {
+  bottom: 0;
   font-family: "Montserrat", sans-serif;
 }
-.footer-distributed{
-	background-color: #141413;
-	box-shadow: 0 1px 1px 0 rgba(0, 0, 0, 0.12);
-	box-sizing: border-box;
-	width: 100%;
-	text-align: left;
 
-	padding: 15px 10px;
+.footer-distributed {
+  background-color: #141413;
+  box-shadow: 0 1px 1px 0 rgba(0, 0, 0, 0.12);
+  box-sizing: border-box;
+  width: 100%;
+  text-align: left;
+  padding: 15px 10px;
 }
 
 .footer-distributed .footer-left,
 .footer-distributed .footer-center,
-.footer-distributed .footer-right{
-	display: inline-block;
-	vertical-align: top;
+.footer-distributed .footer-right {
+  display: inline-block;
+  vertical-align: top;
 }
 
-.footer-distributed .footer-left{
-	width: 40%;
+.footer-distributed .footer-left {
+  width: 40%;
 }
 
-.footer-distributed h3{
-	color:  #bbb;
-	margin: 0;
+.footer-distributed h3 {
+  color: #bbb;
+  margin: 0;
 }
 
-.footer-distributed h3 span{
-	color:  #bbb;
+.footer-distributed h3 span {
+  color: #bbb;
 }
 
-
-.footer-distributed .footer-links{
-	color:  #bbb;
-	margin: 20px 0 12px;
-	padding: 0;
+.footer-distributed .footer-links {
+  color: #bbb;
+  margin: 20px 0 12px;
+  padding: 0;
 }
 
-.footer-distributed .footer-links a{
-	display:inline-block;
-	line-height: 1.8;
-	text-decoration: none;
-	color:  #F79E1B;
+.footer-distributed .footer-links a {
+  display: inline-block;
+  line-height: 1.8;
+  text-decoration: none;
+  color: #F79E1B;
 }
 
-.footer-distributed .footer-company-name{
-	color:  #bbb;
-	font-size: 14px;
-	font-weight: normal;
-	margin: 0;
+.footer-distributed .footer-company-name {
+  color: #bbb;
+  font-size: 14px;
+  font-weight: normal;
+  margin: 0;
 }
 
-
-.footer-distributed .footer-center{
-	width: 35%;
+.footer-distributed .footer-center {
+  width: 35%;
 }
 
-.footer-distributed .footer-center i{
-	background-color:  #33383b;
-	color: #bbb;
-	font-size: 25px;
-	width: 38px;
-	height: 38px;
-	border-radius: 50%;
-	text-align: center;
-	line-height: 42px;
-	margin: 10px 15px;
-	vertical-align: middle;
+.footer-distributed .footer-center i {
+  background-color: #33383b;
+  color: #bbb;
+  font-size: 25px;
+  width: 38px;
+  height: 38px;
+  border-radius: 50%;
+  text-align: center;
+  line-height: 42px;
+  margin: 10px 15px;
+  vertical-align: middle;
 }
 
-.footer-distributed .footer-center i.fa-envelope{
-	font-size: 17px;
-	line-height: 38px;
+.footer-distributed .footer-center i.fa-envelope {
+  font-size: 17px;
+  line-height: 38px;
 }
 
-.footer-distributed .footer-center img{
+.footer-distributed .footer-center img {
   width: 90px;
   padding-top: 1rem;
 }
 
-.footer-distributed .footer-center p{
-	display: inline-block;
-	color: #bbb;
-	vertical-align: middle;
-	margin:0;
-}
-
-.footer-distributed .footer-center p span{
+.footer-distributed .footer-center p {
+  display: inline-block;
   color: #bbb;
-	display:block;
-	font-weight: normal;
-	font-size:14px;
-	line-height:2;
+  vertical-align: middle;
+  margin: 0;
 }
 
-.footer-distributed .footer-center p a{
-	color:  #FF5F00;
-	text-decoration: none;
-}
-.footer-distributed .footer-center p a:hover{
-	color: #FF5F00;
-	text-decoration: none;
-}
-.footer-distributed .footer-right{
-	width: 20%;
+.footer-distributed .footer-center p span {
+  color: #bbb;
+  display: block;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 2;
 }
 
-.footer-distributed .footer-company-about{
-	line-height: 20px;
-	color:  #ccc;
-	font-size: 13px;
-	font-weight: normal;
-	margin: 0;
+.footer-distributed .footer-center p a {
+  color: #FF5F00;
+  text-decoration: none;
 }
 
-.footer-distributed .footer-company-about span{
-	display: block;
-	color:  #ccc;
-	font-size: 14px;
-	font-weight: bold;
-	margin-bottom: 20px;
+.footer-distributed .footer-center p a:hover {
+  color: #FF5F00;
+  text-decoration: none;
+}
+
+.footer-distributed .footer-right {
+  width: 20%;
+}
+
+.footer-distributed .footer-company-about {
+  line-height: 20px;
+  color: #ccc;
+  font-size: 13px;
+  font-weight: normal;
+  margin: 0;
+}
+
+.footer-distributed .footer-company-about span {
+  display: block;
+  color: #ccc;
+  font-size: 14px;
+  font-weight: bold;
+  margin-bottom: 20px;
 }
 
 .filler-box1 {
   display: flex;
   width: 100%;
   height: 400px;
-  background-image:linear-gradient(rgba(0,0,0,0.3),rgba(0,0,0,0.5)),url(https://www.mastercard.us/content/dam/public/mastercardcom/na/us/en/vision/images/sustainability/bird-view-to-bridge-darker-1300x650.jpg);
+  background-image: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.5)), url(https://www.mastercard.us/content/dam/public/mastercardcom/na/us/en/vision/images/sustainability/bird-view-to-bridge-darker-1300x650.jpg);
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
@@ -393,14 +341,14 @@ footer{
 
 .filler-box2 {
   width: 100%;
-
   position: relative;
 }
+
 .filler-box3 {
   display: flex;
   width: 100%;
   height: 400px;
-  background-image:linear-gradient(rgba(0,0,0,0.3),rgba(0,0,0,0.5)),url(../media/mount.jpg);
+  background-image: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.5)), url(../media/mount.jpg);
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
@@ -415,7 +363,6 @@ footer{
   left: 30%;
   transform: translate(-50%, -50%);
   color: white;
-
 }
 
 .filler-text1 {
@@ -429,14 +376,11 @@ footer{
   color: black;
   margin-top: 15rem;
   margin-bottom: -10rem;
-
 }
 
-
 .filler-text a {
-  color:  #bbb;
+  color: #bbb;
   text-decoration: none;
-
 }
 
 .filler-text1 h1 {
@@ -454,6 +398,7 @@ footer{
   font-size: 26px;
   font-family: "Montserrat", sans-serif;
 }
+
 .filler-text span {
   color: #bbb;
   font-size: 14px;
@@ -464,21 +409,16 @@ footer{
   height: 0;
 }
 
-
-
-
-
-
-
-
-
 .wrapper-main {
   background-color: white;
   position: absolute;
   height: 70%;
   overflow: auto;
   margin: auto;
-  top: 0; left: 0; bottom: 0; right: 0;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
 }
 
 .section-default {
@@ -493,41 +433,38 @@ footer{
 
 .signup-form {
   max-width: 300px;
-  width:50%;
-  margin:0 auto;
+  width: 50%;
+  margin: 0 auto;
   margin-top: 2rem;
-  text-align:center;
+  text-align: center;
 }
 
-.signup-form input, select, textarea{
+.signup-form input, select, textarea {
   width: 200px;
   padding: 12px;
   border: 1px solid #000;
   border-radius: 4px;
   box-sizing: border-box;
   resize: vertical;
-  margin:  0.5rem;
+  margin: 0.5rem;
 }
 
-.signup-form input[type=password], select, textarea{
+.signup-form input[type=password], select, textarea {
   width: 200px;
   padding: 12px;
   border: 1px solid #000;
   border-radius: 4px;
   box-sizing: border-box;
   resize: vertical;
-  margin:  0.5rem;
+  margin: 0.5rem;
 }
 
 .signup-form .btn {
   margin: 2rem;
 }
 
-
-
-
 .content {
-  margin:0 auto;
+  margin: 0 auto;
   position: relative;
   text-align: center;
   display: table-cell;
@@ -535,21 +472,18 @@ footer{
   width: 50%;
 }
 
-
-
 .title {
-    font-size: 78px;
+  font-size: 78px;
 }
 
 .opt {
-    margin-top: 30px;
-    font-size: 150%;
+  margin-top: 30px;
+  font-size: 150%;
 }
 
-
 .opt-cont {
-    margin-top: 30px;
-    text-align: left;
+  margin-top: 30px;
+  text-align: left;
 }
 
 .opt-cont a {
@@ -560,6 +494,7 @@ footer{
 a:hover {
   color: red;
 }
+
 li {
   list-style-type: none;
 }
