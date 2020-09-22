@@ -4,6 +4,7 @@ if (isset($_POST['signup-submit'])) {
   // code...
   require 'dbh.inc.php';
 
+
   $cid = $_POST['cid'];
   $cuser = $_POST['cuser'];
   $cmail = $_POST['cmail'];
@@ -15,15 +16,11 @@ if (isset($_POST['signup-submit'])) {
   $result = $stmt->fetchObject();
 
 
-  if (count($result) == 0) {
+  if (empty($result)) {
     // if NULL cid not exist
     header("Location: ../assets/signup.php?status=ID_NOT_FOUND");
     exit();
-  } elseif ($result->cid != $cid) {
-    // id dont match
-    header("Location: ../assets/signup.php?status=ID_NOT_FOUND");
-    exit();
-  } elseif ($result->cuser !== NULL) {
+  } elseif ($result->cuser != NULL) {
     // code...
     header("Location: ../assets/signup.php?status=ID_ASSIGNED");
     exit();

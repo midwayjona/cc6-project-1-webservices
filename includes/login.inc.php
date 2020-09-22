@@ -24,6 +24,7 @@ if (isset($_POST['login-submit'])) {
       // code...
       session_start();
       $_SESSION['cid'] = $result->cid;
+      $_SESSION['ctin'] = $result->ctin;
       $_SESSION['cname'] = $result->cname;
       $_SESSION['cuser'] = $result->cuser;
       $_SESSION['cemail'] = $result->cemail;

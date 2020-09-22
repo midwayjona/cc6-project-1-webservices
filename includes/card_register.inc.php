@@ -15,7 +15,7 @@ if (isset($_POST['card-register-submit'])) {
           VALUES (:cnumber, :cid, :cvv, :cexp_date, DEFAULT, :climit, DEFAULT)';
   $stmt = $conn->prepare($sql);
   $stmt->execute(['cnumber' => $cnumber, 'cid' => $cid, 'cvv' => $cvv, 'cexp_date' => $cexp_date, 'climit' => $climit]);
-  header("Location: ../assets/cpanel.php?CARD_SUCCESS");
+  header("Location: ../assets/cpanel.php?status=CARD_SUCCESS");
   exit();
 } else {
   // code...

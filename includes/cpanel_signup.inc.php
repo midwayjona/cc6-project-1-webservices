@@ -69,7 +69,7 @@ if (isset($_POST['cpanel-signup-submit'])) {
           VALUES (:cid, :ctin, :cname, :cdob, :cuser, :cemail, :cphone, :cpassword, :caddress, DEFAULT)';
   $stmt = $conn->prepare($sql);
   $stmt->execute(['cid' => $cid, 'ctin' => $ctin, 'cname' => $cname, 'cdob' => $cdob, 'cuser' => $cuser, 'cemail' => $cemail, 'cphone' => $cphone, 'cpassword' => $hashedPwd, 'caddress' => $caddress]);
-  header("Location: ../assets/cpanel.php?SIGNUP_SUCCESS");
+  header("Location: ../assets/cpanel.php?status=SIGNUP_SUCCESS");
   exit();
 
 } else {
