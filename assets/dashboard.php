@@ -57,45 +57,9 @@ include $path.'assets/header.php';
 
 
           </li>
-          <li class="nav-item">
 
-            <a class="nav-link" id="v-pills-messages-tab" data-toggle="pill" href="#v-pills-messages" role="tab" aria-controls="v-pills-messages" aria-selected="false">
-              <svg class="svg-icon" viewBox="0 0 20 20" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1" stroke-linecap="round" stroke-linejoin="round" class="feather feather-home">
-                <path d="M17.728,4.419H2.273c-0.236,0-0.429,0.193-0.429,0.429v10.304c0,0.234,0.193,0.428,0.429,0.428h15.455c0.235,0,0.429-0.193,0.429-0.428V4.849C18.156,4.613,17.963,4.419,17.728,4.419 M17.298,14.721H2.702V9.57h14.596V14.721zM17.298,8.712H2.702V7.424h14.596V8.712z M17.298,6.566H2.702V5.278h14.596V6.566z M9.142,13.005c0,0.235-0.193,0.43-0.43,0.43H4.419c-0.236,0-0.429-0.194-0.429-0.43c0-0.236,0.193-0.429,0.429-0.429h4.292C8.948,12.576,9.142,12.769,9.142,13.005"></path>
-              </svg>
-              Create Card
-            </a>
 
-            <!-- <a class="nav-link" href="#">
-              <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-file"><path d="M13 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V9z"></path><polyline points="13 2 13 9 20 9"></polyline></svg>
-              Card
-            </a> -->
 
-          </li>
-          <li class="nav-item">
-
-            <a class="nav-link" id="v-pills-costumers-tab" data-toggle="pill" href="#v-pills-costumers" role="tab" aria-controls="v-pills-costumers" aria-selected="false">
-
-              <svg class="svg-icon" viewBox="0 0 20 20" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1" stroke-linecap="round" stroke-linejoin="round" class="feather feather-home">
-                <path d="M17.211,3.39H2.788c-0.22,0-0.4,0.18-0.4,0.4v9.614c0,0.221,0.181,0.402,0.4,0.402h3.206v2.402c0,0.363,0.429,0.533,0.683,0.285l2.72-2.688h7.814c0.221,0,0.401-0.182,0.401-0.402V3.79C17.612,3.569,17.432,3.39,17.211,3.39M16.811,13.004H9.232c-0.106,0-0.206,0.043-0.282,0.117L6.795,15.25v-1.846c0-0.219-0.18-0.4-0.401-0.4H3.189V4.19h13.622V13.004z"></path>
-              </svg>
-              Costumers
-
-            </a>
-
-          </li>
-          <li class="nav-item">
-
-            <a class="nav-link" id="v-pills-cards-tab" data-toggle="pill" href="#v-pills-cards" role="tab" aria-controls="v-pills-cards" aria-selected="false">
-
-              <svg class="svg-icon" viewBox="0 0 20 20" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1" stroke-linecap="round" stroke-linejoin="round" class="feather feather-home">
-                <path d="M15.475,6.692l-4.084-4.083C11.32,2.538,11.223,2.5,11.125,2.5h-6c-0.413,0-0.75,0.337-0.75,0.75v13.5c0,0.412,0.337,0.75,0.75,0.75h9.75c0.412,0,0.75-0.338,0.75-0.75V6.94C15.609,6.839,15.554,6.771,15.475,6.692 M11.5,3.779l2.843,2.846H11.5V3.779z M14.875,16.75h-9.75V3.25h5.625V7c0,0.206,0.168,0.375,0.375,0.375h3.75V16.75z"></path>
-              </svg>
-              Cards
-
-            </a>
-
-          </li>
           <li class="nav-item">
 
             <a class="nav-link" href="#">
@@ -129,27 +93,16 @@ include $path.'assets/header.php';
                 <line x1="16" y1="17" x2="8" y2="17"></line>
                 <polyline points="10 9 9 9 8 9"></polyline>
               </svg>
-              Current month
+              card settlement
             </a>
           </li>
           <li class="nav-item">
             <a class="nav-link" href="#">
               <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-file-text"><path d="M14 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V8z"></path><polyline points="14 2 14 8 20 8"></polyline><line x1="16" y1="13" x2="8" y2="13"></line><line x1="16" y1="17" x2="8" y2="17"></line><polyline points="10 9 9 9 8 9"></polyline></svg>
-              Last quarter
+              loans
             </a>
           </li>
-          <li class="nav-item">
-            <a class="nav-link" href="#">
-              <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-file-text"><path d="M14 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V8z"></path><polyline points="14 2 14 8 20 8"></polyline><line x1="16" y1="13" x2="8" y2="13"></line><line x1="16" y1="17" x2="8" y2="17"></line><polyline points="10 9 9 9 8 9"></polyline></svg>
-              Social engagement
-            </a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="#">
-              <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-file-text"><path d="M14 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V8z"></path><polyline points="14 2 14 8 20 8"></polyline><line x1="16" y1="13" x2="8" y2="13"></line><line x1="16" y1="17" x2="8" y2="17"></line><polyline points="10 9 9 9 8 9"></polyline></svg>
-              Year-end sale
-            </a>
-          </li>
+
         </ul>
       </div>
     </nav>
@@ -250,26 +203,78 @@ include $path.'assets/header.php';
               </button>
             </div>
             ';
+          } elseif ($status == 'PAY_SUCCESS') {
+            // code...
+            echo '
+            <div class="alert alert-success alert-dismissible show fade my-4" id="signupAlert" role="alert">
+              <h4 class="alert-heading">Thank you for your payment!</h4>
+              <hr>
+              ✔️ payment stored.
+              <button type="button" class="close" data-dismiss="alert" aria-label="Close">
+                <span aria-hidden="true">&times;</span>
+              </button>
+            </div>
+            ';
           }
         }
         ?>
       </div>
 
-
+      <!-- FUNCTIONALITY -->
+      <?php
+      function FormatCreditCard($cc)
+      {
+        // Clean out extra data that might be in the cc
+        $cc = str_replace(array('-',' '),'',$cc);
+        // Get the CC Length
+        $cc_length = strlen($cc);
+        // Initialize the new credit card to contian the last four digits
+        $newCreditCard = substr($cc,-4);
+        // Walk backwards through the credit card number and add a dash after every fourth digit
+        for($i=$cc_length-5;$i>=0;$i--){
+          // If on the fourth character add a dash
+          if((($i+1)-$cc_length)%4 == 0){
+            $newCreditCard = '-'.$newCreditCard;
+          }
+          // Add the current character to the new credit card
+          $newCreditCard = $cc[$i].$newCreditCard;
+        }
+        // Return the formatted credit card number
+        return $newCreditCard;
+      }
+      ?>
 
 
         <div class="tab-content" id="v-pills-tabContent">
 
-
-
           <!-- HOME TAB -->
           <div class="tab-pane fade show active" id="v-pills-home" role="tabpanel" aria-labelledby="v-pills-home-tab">
 
-            <div class="mb-5"></div>
+            <div class="mb-5"></div> <!-- spacer -->
             <div class="container">
-              <h3><strong><?php echo $_SESSION['cname']; ?></strong></h3>
-              <h5><?php echo $_SESSION['cid']; ?></h5>
-              <h5><?php echo $_SESSION['cuser'].' - '.$_SESSION['cemail']; ?></h5>
+
+
+
+              <div Id="wrapper">
+                  <section>
+                      <ul id="a">
+                        <li>
+                          <a href="">
+                            <img src="https://thephilfactor.files.wordpress.com/2017/04/donald-trump-strong-200x200.png" class="bd-placeholder-img rounded-circle" width="160" height="160">
+                            <!-- Wrapped into div -->
+                            <div class="details">
+                              <h3><strong><?php echo $_SESSION['cname']; ?></strong></h3>
+                              <h6><span style="font-size: .75rem;text-transform: uppercase;">ID </span><b><?php echo $_SESSION['cid']; ?></b></h6>
+                              <h6><span style="font-size: .75rem;text-transform: uppercase;">TIN </span><b><?php echo $_SESSION['ctin']; ?></b></h6>
+                              <h6><span style="font-size: .75rem;text-transform: uppercase;">USERNAME </span><b><?php echo $_SESSION['cuser']; ?></b></h6>
+                              <h6><span style="font-size: .75rem;text-transform: uppercase;">EMAIL </span><b><?php echo $_SESSION['cemail']; ?></b></h6>
+                            </div>
+                          </a>
+                        </li>
+                      </ul>
+                    </section>
+                </div>
+
 
               <div class="mb-5"></div> <!-- spacer -->
               <h4><strong>Personal Accounts</strong></h4>
@@ -295,17 +300,18 @@ include $path.'assets/header.php';
                     // SELECT COSTUMER
                     foreach ($row as $row) {
                       $orgDate = $row->cissue_date;
-                      $newDate = date("d/m", strtotime($orgDate));
+                      $newDate = date("M d", strtotime($orgDate));
                       $cavailable = $row->climit - $row->cbalance;
                       echo '
                         <tr>
                           <td scope="row">
-                            <form >
+                            <form class="form-card-submit"  action="cardboard.php" method="post">
+                              <input type="hidden" name="cnumber" value="'.$row->cnumber.'" id="cnumber" class="form-control">
                               <button class="btn" type="submit" name="delete-costumer-submit" title="Credit Card">
                                 <svg class="svg-icon" viewBox="0 0 20 20" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1" stroke-linecap="round" stroke-linejoin="round" class="feather feather-home">
                                   <path d="M17.728,4.419H2.273c-0.236,0-0.429,0.193-0.429,0.429v10.304c0,0.234,0.193,0.428,0.429,0.428h15.455c0.235,0,0.429-0.193,0.429-0.428V4.849C18.156,4.613,17.963,4.419,17.728,4.419 M17.298,14.721H2.702V9.57h14.596V14.721zM17.298,8.712H2.702V7.424h14.596V8.712z M17.298,6.566H2.702V5.278h14.596V6.566z M9.142,13.005c0,0.235-0.193,0.43-0.43,0.43H4.419c-0.236,0-0.429-0.194-0.429-0.43c0-0.236,0.193-0.429,0.429-0.429h4.292C8.948,12.576,9.142,12.769,9.142,13.005"></path>
                                 </svg>
-                                '.$row->cnumber.'
+                                '.FormatCreditCard($row->cnumber).'
                               </button>
                             </form>
                           </td>
@@ -332,24 +338,18 @@ include $path.'assets/header.php';
                         <th scope="col">Account Number</th>
                         <th scope="col"></th>
                         <th scope="col"></th>
-                        <th scope="col"></th>
-                        <th scope="col"></th>
                         <th scope="col">Balance</th>
                       </tr>
                     </thead>
                     <?php
                     $cid = $_SESSION['cid'];
-                    $sql = 'SELECT cnumber, cexp_date, cissue_date, climit, cbalance, cid FROM card WHERE cid = :cid';
+                    $sql = 'SELECT * FROM checking WHERE cid = :cid';
                     $stmt = $conn->prepare($sql);
                     $stmt->execute(['cid' => $cid]);
                     $row = $stmt->fetchAll();
                     // SELECT COSTUMER
                     foreach ($row as $row) {
-                      $orgDate = $row->cissue_date;
-                      $newDate = date("d/m", strtotime($orgDate));
-                      $cavailable = $row->climit - $row->cbalance;
                       echo '
-                        <tr>
                         <tr>
                           <td scope="row">
                             <form >
@@ -357,13 +357,13 @@ include $path.'assets/header.php';
                                 <svg class="svg-icon" viewBox="0 0 20 20" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1" stroke-linecap="round" stroke-linejoin="round" class="feather feather-home">
                                   <path d="M18.303,4.742l-1.454-1.455c-0.171-0.171-0.475-0.171-0.646,0l-3.061,3.064H2.019c-0.251,0-0.457,0.205-0.457,0.456v9.578c0,0.251,0.206,0.456,0.457,0.456h13.683c0.252,0,0.457-0.205,0.457-0.456V7.533l2.144-2.146C18.481,5.208,18.483,4.917,18.303,4.742 M15.258,15.929H2.476V7.263h9.754L9.695,9.792c-0.057,0.057-0.101,0.13-0.119,0.212L9.18,11.36h-3.98c-0.251,0-0.457,0.205-0.457,0.456c0,0.253,0.205,0.456,0.457,0.456h4.336c0.023,0,0.899,0.02,1.498-0.127c0.312-0.077,0.55-0.137,0.55-0.137c0.08-0.018,0.155-0.059,0.212-0.118l3.463-3.443V15.929z M11.241,11.156l-1.078,0.267l0.267-1.076l6.097-6.091l0.808,0.808L11.241,11.156z"></path>
                                 </svg>
-                                0640480789
+                                '.sprintf("%010s", $row->caccount).'
                               </button>
                             </form>
                           </td>
                           <td></td>
                           <td></td>
-                          <td><b>Q 500</b></td>
+                          <td><b>Q '.$row->cfund.'</b></td>
                         </tr>
 
                         </tr>
@@ -387,12 +387,68 @@ include $path.'assets/header.php';
 
 
 
-          <!-- CREATE USER TAB -->
+          <!-- PAY TAB -->
           <div class="tab-pane fade" id="v-pills-profile" role="tabpanel" aria-labelledby="v-pills-profile-tab">
 
 
+            <div class="col-lg-12 col-md-8">
+              <form class="form-signin"  action="<?php echo $path ?>includes/card_payment.inc.php" method="post">
+                <div class="text-center mb-4">
+                  <svg class="svg-icon" viewBox="0 0 20 20" width="72" height="72" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1" stroke-linecap="round" stroke-linejoin="round" class="feather feather-home">
+                    <path fill="none" d="M11.174,14.993h1.647c0.228,0,0.412-0.184,0.412-0.411v-1.648c0-0.228-0.185-0.411-0.412-0.411h-1.647c-0.227,0-0.412,0.184-0.412,0.411v1.648C10.762,14.81,10.947,14.993,11.174,14.993 M3.759,13.346h4.943c0.227,0,0.412-0.184,0.412-0.412c0-0.228-0.185-0.411-0.412-0.411H3.759c-0.227,0-0.412,0.184-0.412,0.411C3.347,13.162,3.532,13.346,3.759,13.346 M3.759,14.993h3.295c0.228,0,0.412-0.184,0.412-0.411S7.282,14.17,7.055,14.17H3.759c-0.227,0-0.412,0.185-0.412,0.412S3.532,14.993,3.759,14.993 M14.881,5.932H1.7c-0.455,0-0.824,0.369-0.824,0.824v9.886c0,0.454,0.369,0.823,0.824,0.823h13.181c0.455,0,0.823-0.369,0.823-0.823V6.755C15.704,6.301,15.336,5.932,14.881,5.932M14.881,16.642H1.7v-5.767h13.181V16.642z M14.881,8.403H1.7V6.755h13.181V8.403z M18.176,2.636H4.995c-0.455,0-0.824,0.37-0.824,0.824v1.236c0,0.228,0.185,0.412,0.412,0.412c0.228,0,0.412-0.184,0.412-0.412V3.46h13.181v9.886H16.94c-0.228,0-0.412,0.185-0.412,0.412s0.185,0.412,0.412,0.412h1.235c0.455,0,0.824-0.369,0.824-0.824V3.46C19,3.006,18.631,2.636,18.176,2.636"></path>
+                  </svg>
+                  <h1 class="h3 mb-3 font-weight-normal">Pay</h1>
+                  <h6>Easily pay your credit card <b>online</b>.</h6>
+                </div>
 
+                <div class="mb-5"></div>
+                <!-- CARD SELECTION -->
+                <div class="form-label-group mb-3">
+                  <!-- <input type="text" name="cuser" id="inputUsername" class="form-control" placeholder="Username" required="">  -->
+                  <label for="input_cnumber">Card Number</label>
+                  <select id="input_cnumber" name="cnumber" class="form-control selectpicker" title="" required>
+                       <option disabled selected></option>
+                       <?php
+                       $sql = 'SELECT * FROM card WHERE cid = :cid';
+                       $stmt = $conn->prepare($sql);
+                       $stmt->execute(['cid' => $cid]);
+                       $row = $stmt->fetchAll();
+                       // SELECT COSTUMER
+                       foreach ($row as $row) {
+                         echo '<option value="'.$row->cnumber.'">'.FormatCreditCard($row->cnumber).' [ '.$row->cbalance.' ]</option>';
+                       }
+                        ?>
+                    </select>
+                </div>
+                <!-- CARD SELECTION -->
+                <div class="form-label-group mb-3">
+                  <!-- <input type="text" name="cuser" id="inputUsername" class="form-control" placeholder="Username" required="">  -->
+                  <label for="input_caccount">Account Number</label>
+                  <select id="input_caccount" name="caccount" class="form-control selectpicker" title="" required>
+                       <option disabled selected></option>
+                       <?php
+                       $sql = 'SELECT * FROM checking WHERE cid = :cid';
+                       $stmt = $conn->prepare($sql);
+                       $stmt->execute(['cid' => $cid]);
+                       $row = $stmt->fetchAll();
+                       // SELECT COSTUMER
+                       foreach ($row as $row) {
+                         echo '<option value="'.$row->caccount.'"  pattern="[0-9.]+">'.sprintf("%010s", $row->caccount).' [ '.$row->cfund.' ]</option>';
+                       }
+                        ?>
+                    </select>
+                </div>
+                <!-- LIMIT -->
+                <div class="form-label-group mb-3">
+                  <label for="input_pamount">Amount</label>
+                  <input type="text" name="pamount" id="input_pamount" class="form-control amount">
+                </div>
 
+                <div class="mb-5"></div>
+                <button class="btn btn-lg btn-primary btn-block" type="submit" name="card-pay-submit">Pay a Mastercash©</button>
+
+              </form>
+            </div>
 
 
           </div>
@@ -405,134 +461,10 @@ include $path.'assets/header.php';
           </div>
 
           <!-- COSTUMERS TAB -->
-          <div class="tab-pane fade" id="v-pills-costumers" role="tabpanel" aria-labelledby="v-pills-costumers-tab">
-            <h2>Costumers</h2>
-            <hr>
-            <div class="table-responsive">
-              <table class="table table-hover">
-                <thead class="thead-dark">
-                  <tr>
-                    <th scope="col">ID</th>
-                    <th scope="col">TIN</th>
-                    <th scope="col">Name</th>
-                    <th scope="col">Username</th>
-                    <th scope="col">Email</th>
-                    <th scope="col">Phone</th>
-                    <th scope="col">Birthday</th>
-                    <th scope="col">Address</th>
-                    <th scope="col">Actions</th>
-                  </tr>
-                </thead>
-                <tbody>
 
-                  <?php
-                  $sql = 'SELECT cid, ctin, cname, cuser, cemail, cphone, cdob, caddress FROM costumer WHERE cadmin=FALSE';
-                  $stmt = $conn->prepare($sql);
-                  $stmt->execute();
-                  $row = $stmt->fetchAll();
-                  // SELECT COSTUMER
-                  foreach ($row as $row) {
-                    echo '
-                      <tr>
-                        <td scope="row"><b>'.$row->cid.'</b></td>
-                        <td>'.$row->ctin.'</td>
-                        <td>'.$row->cname.'</td>
-                        <td>'.$row->cuser.'</td>
-                        <td>'.$row->cemail.'</td>
-                        <td>'.$row->cphone.'</td>
-                        <td>'.$row->cdob.'</td>
-                        <td>'.$row->caddress.'</td>
-                        <td>
-                          <form >
-                            <button class="btn" type="submit" name="delete-costumer-submit" title="Delete">
-                              <svg class="svg-icon" viewBox="0 0 20 20" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1" stroke-linecap="round" stroke-linejoin="round" class="feather feather-home">
-                                <path d="M17.114,3.923h-4.589V2.427c0-0.252-0.207-0.459-0.46-0.459H7.935c-0.252,0-0.459,0.207-0.459,0.459v1.496h-4.59c-0.252,0-0.459,0.205-0.459,0.459c0,0.252,0.207,0.459,0.459,0.459h1.51v12.732c0,0.252,0.207,0.459,0.459,0.459h10.29c0.254,0,0.459-0.207,0.459-0.459V4.841h1.511c0.252,0,0.459-0.207,0.459-0.459C17.573,4.127,17.366,3.923,17.114,3.923M8.394,2.886h3.214v0.918H8.394V2.886z M14.686,17.114H5.314V4.841h9.372V17.114z M12.525,7.306v7.344c0,0.252-0.207,0.459-0.46,0.459s-0.458-0.207-0.458-0.459V7.306c0-0.254,0.205-0.459,0.458-0.459S12.525,7.051,12.525,7.306M8.394,7.306v7.344c0,0.252-0.207,0.459-0.459,0.459s-0.459-0.207-0.459-0.459V7.306c0-0.254,0.207-0.459,0.459-0.459S8.394,7.051,8.394,7.306"></path>
-                              </svg>
-                            </button>
-                            <button class="btn" type="submit" name="delete-costumer-submit" title="Edit">
-                              <svg class="svg-icon" viewBox="0 0 20 20" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1" stroke-linecap="round" stroke-linejoin="round" class="feather feather-home">
-                                <path d="M17.064,4.656l-2.05-2.035C14.936,2.544,14.831,2.5,14.721,2.5H3.854c-0.229,0-0.417,0.188-0.417,0.417v14.167c0,0.229,0.188,0.417,0.417,0.417h12.917c0.229,0,0.416-0.188,0.416-0.417V4.952C17.188,4.84,17.144,4.733,17.064,4.656M6.354,3.333h7.917V10H6.354V3.333z M16.354,16.667H4.271V3.333h1.25v7.083c0,0.229,0.188,0.417,0.417,0.417h8.75c0.229,0,0.416-0.188,0.416-0.417V3.886l1.25,1.239V16.667z M13.402,4.688v3.958c0,0.229-0.186,0.417-0.417,0.417c-0.229,0-0.417-0.188-0.417-0.417V4.688c0-0.229,0.188-0.417,0.417-0.417C13.217,4.271,13.402,4.458,13.402,4.688"></path>
-                              </svg>
-                            </button>
-                          </form>
-                        </td>
-
-                      </tr>
-
-
-
-                    ';
-
-                  }
-                   ?>
-
-                </tbody>
-              </table>
-            </div>
-          </div>
 
           <!-- CARDS TAB -->
-          <div class="tab-pane fade" id="v-pills-cards" role="tabpanel" aria-labelledby="v-pills-cards-tab">
-            <h2>Cards</h2>
-            <hr>
-            <div class="table-responsive">
-              <table class="table table-hover">
-                <thead class="thead-dark">
-                  <tr>
-                    <th scope="col">Credit Card</th>
-                    <th scope="col">Owner</th>
-                    <th scope="col">Issue Date</th>
-                    <th scope="col">Exp. Date</th>
-                    <th scope="col">Credit Limit</th>
-                    <th scope="col">Balance</th>
-                    <th scope="col">Actions</th>
-                  </tr>
-                </thead>
-                <tbody>
 
-                  <?php
-                  $sql = 'SELECT cnumber, card.cid, cexp_date, cissue_date, climit, cbalance, cname FROM card LEFT JOIN costumer ON costumer.cid = card.cid';
-                  $stmt = $conn->prepare($sql);
-                  $stmt->execute();
-                  $row = $stmt->fetchAll();
-                  // SELECT COSTUMER
-                  foreach ($row as $row) {
-                    echo '
-                      <tr>
-                        <td scope="row"><b>'.$row->cnumber.'</b></td>
-                        <td title="'.$row->cname.'">'.$row->cid.'</td>
-                        <td>'.$row->cexp_date.'</td>
-                        <td>'.$row->cissue_date.'</td>
-                        <td>Q '.$row->climit.'</td>
-                        <td>Q '.$row->cbalance.'</td>
-                        <td>
-                          <form >
-                            <button class="btn" type="submit" name="delete-card-submit" title="Delete">
-                              <svg class="svg-icon" viewBox="0 0 20 20" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1" stroke-linecap="round" stroke-linejoin="round" class="feather feather-home">
-                                <path d="M17.114,3.923h-4.589V2.427c0-0.252-0.207-0.459-0.46-0.459H7.935c-0.252,0-0.459,0.207-0.459,0.459v1.496h-4.59c-0.252,0-0.459,0.205-0.459,0.459c0,0.252,0.207,0.459,0.459,0.459h1.51v12.732c0,0.252,0.207,0.459,0.459,0.459h10.29c0.254,0,0.459-0.207,0.459-0.459V4.841h1.511c0.252,0,0.459-0.207,0.459-0.459C17.573,4.127,17.366,3.923,17.114,3.923M8.394,2.886h3.214v0.918H8.394V2.886z M14.686,17.114H5.314V4.841h9.372V17.114z M12.525,7.306v7.344c0,0.252-0.207,0.459-0.46,0.459s-0.458-0.207-0.458-0.459V7.306c0-0.254,0.205-0.459,0.458-0.459S12.525,7.051,12.525,7.306M8.394,7.306v7.344c0,0.252-0.207,0.459-0.459,0.459s-0.459-0.207-0.459-0.459V7.306c0-0.254,0.207-0.459,0.459-0.459S8.394,7.051,8.394,7.306"></path>
-                              </svg>
-                            </button>
-                            <button class="btn" type="submit" name="delete-costumer-submit" title="Edit">
-                              <svg class="svg-icon" viewBox="0 0 20 20" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1" stroke-linecap="round" stroke-linejoin="round" class="feather feather-home">
-                                <path d="M17.064,4.656l-2.05-2.035C14.936,2.544,14.831,2.5,14.721,2.5H3.854c-0.229,0-0.417,0.188-0.417,0.417v14.167c0,0.229,0.188,0.417,0.417,0.417h12.917c0.229,0,0.416-0.188,0.416-0.417V4.952C17.188,4.84,17.144,4.733,17.064,4.656M6.354,3.333h7.917V10H6.354V3.333z M16.354,16.667H4.271V3.333h1.25v7.083c0,0.229,0.188,0.417,0.417,0.417h8.75c0.229,0,0.416-0.188,0.416-0.417V3.886l1.25,1.239V16.667z M13.402,4.688v3.958c0,0.229-0.186,0.417-0.417,0.417c-0.229,0-0.417-0.188-0.417-0.417V4.688c0-0.229,0.188-0.417,0.417-0.417C13.217,4.271,13.402,4.458,13.402,4.688"></path>
-                              </svg>
-                            </button>
-                          </form>
-                        </td>
-
-                      </tr>
-
-
-
-                    ';
-
-                  }
-                   ?>
-
-                </tbody>
-              </table>
-            </div>
-          </div>
 
 
         </div>
@@ -541,179 +473,3 @@ include $path.'assets/header.php';
       </main>
     </div>
   </div>
-
-
-
-<!-- footer -->
-	<!-- <script>
-		var progress = document.getElementById('animationProgress');
-		var config = {
-			type: 'line',
-			data: {
-				labels: ['January', 'February', 'March', 'April', 'May', 'June', 'July'],
-				datasets: [{
-					label: 'My First dataset',
-					fill: false,
-					borderColor: window.chartColors.red,
-					backgroundColor: window.chartColors.red,
-					data: [
-						randomScalingFactor(),
-						randomScalingFactor(),
-						randomScalingFactor(),
-						randomScalingFactor(),
-						randomScalingFactor(),
-						randomScalingFactor(),
-						randomScalingFactor()
-					]
-				}, {
-					label: 'My Second dataset ',
-					fill: false,
-					borderColor: window.chartColors.blue,
-					backgroundColor: window.chartColors.blue,
-					data: [
-						randomScalingFactor(),
-						randomScalingFactor(),
-						randomScalingFactor(),
-						randomScalingFactor(),
-						randomScalingFactor(),
-						randomScalingFactor(),
-						randomScalingFactor()
-					]
-				}]
-			},
-			options: {
-				title: {
-					display: true,
-					text: 'Chart.js Line Chart - Animation Progress Bar'
-				},
-				animation: {
-					duration: 2000,
-					onProgress: function(animation) {
-						progress.value = animation.currentStep / animation.numSteps;
-					},
-					onComplete: function() {
-						window.setTimeout(function() {
-							progress.value = 0;
-						}, 2000);
-					}
-				}
-			}
-		};
-
-		window.onload = function() {
-			var ctx = document.getElementById('canvas').getContext('2d');
-			window.myLine = new Chart(ctx, config);
-		};
-
-		document.getElementById('randomizeData').addEventListener('click', function() {
-			config.data.datasets.forEach(function(dataset) {
-				dataset.data = dataset.data.map(function() {
-					return randomScalingFactor();
-				});
-			});
-
-			window.myLine.update();
-		});
-	</script> -->
-
-        <script>
-
-
-        var ctxi = document.getElementById('myChart').getContext('2d');
-        var chart = new Chart(ctxi, {
-            // The type of chart we want to create
-            type: 'doughnut',
-            data: {
-              datasets: [{
-                data: [
-                  randomScalingFactor(),
-                  randomScalingFactor(),
-                  randomScalingFactor(),
-                  randomScalingFactor(),
-                  randomScalingFactor(),
-                ],
-                backgroundColor: [
-                  window.chartColors.red,
-                  window.chartColors.orange,
-                  window.chartColors.yellow,
-                  window.chartColors.green,
-                  window.chartColors.blue,
-                ],
-                label: 'Dataset 1'
-              }],
-              labels: [
-                'Red',
-                'Orange',
-                'Yellow',
-                'Green',
-                'Blue'
-              ]
-            },
-            options: {
-              responsive: true,
-              legend: {
-                position: 'top',
-              },
-              title: {
-                display: true,
-                text: 'Balanace'
-              },
-              animation: {
-                duration: 5000,
-      					animateScale: true,
-      					animateRotate: true
-      				}
-            }
-        });
-
-
-
-
-        var ctx = document.getElementById('myChart2').getContext('2d');
-        var chart = new Chart(ctx, {
-            // The type of chart we want to create
-            type: 'doughnut',
-            data: {
-              datasets: [{
-                data: [
-                  randomScalingFactor(),
-                  randomScalingFactor(),
-                  randomScalingFactor(),
-                  randomScalingFactor(),
-                  randomScalingFactor(),
-                ],
-                backgroundColor: [
-                  window.chartColors.red,
-                  window.chartColors.orange,
-                  window.chartColors.yellow,
-                  window.chartColors.green,
-                  window.chartColors.blue,
-                ],
-                label: 'Dataset 1'
-              }],
-              labels: [
-                'Red',
-                'Orange',
-                'Yellow',
-                'Green',
-                'Blue'
-              ]
-            },
-            options: {
-              responsive: true,
-              legend: {
-                position: 'top',
-              },
-              title: {
-                display: true,
-                text: 'Transactions'
-              },
-              animation: {
-                duration: 5000,
-      					animateScale: true,
-      					animateRotate: true
-      				}
-            }
-        });
-
-      	</script>

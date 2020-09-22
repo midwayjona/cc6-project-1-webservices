@@ -3,6 +3,11 @@ var cleave = new Cleave('.amount', {
   swapHiddenInput: true
 });
 
+var cleave = new Cleave('.camount', {
+  numeral: true,
+  swapHiddenInput: true
+});
+
 
 var cleave = new Cleave('.creditcard', {
     creditCard: true,

@@ -55,22 +55,24 @@
       <!-- Three columns of text below the carousel -->
       <div class="row">
         <div class="col-lg-4">
-          <svg class="bd-placeholder-img rounded-circle" width="140" height="140" xmlns="http://www.w3.org/2000/svg" preserveAspectRatio="xMidYMid slice" focusable="false" role="img" aria-label="Placeholder: 140x140"><title>Placeholder</title><rect width="100%" height="100%" fill="#777"></rect><text x="50%" y="50%" fill="#777" dy=".3em">140x140</text></svg>
-          <h2>Heading</h2>
+          <img src="https://i-cdn.phonearena.com/images/article/78433-image/Trump-other-GOP-presidential-hopefuls-take-shots-at-Apple-for-refusing-to-obey-a-court-order.jpg" class="bd-placeholder-img rounded-circle" width="140" height="140">
+
+          <div class="mb-4"></div> <!-- spacer -->
+          <h2>Jonathan Amado</h2>
           <p>Donec sed odio dui. Etiam porta sem malesuada magna mollis euismod. Nullam id dolor id nibh ultricies vehicula ut id elit. Morbi leo risus, porta ac consectetur ac, vestibulum at eros. Praesent commodo cursus magna.</p>
           <p><a class="btn btn-secondary" href="#" role="button">View details »</a></p>
         </div><!-- /.col-lg-4 -->
         <div class="col-lg-4">
-          <svg class="bd-placeholder-img rounded-circle" width="140" height="140" xmlns="http://www.w3.org/2000/svg" preserveAspectRatio="xMidYMid slice" focusable="false" role="img" aria-label="Placeholder: 140x140"><title>Placeholder</title><rect width="100%" height="100%" fill="#777"></rect><text x="50%" y="50%" fill="#777" dy=".3em">140x140</text></svg>
-          <h2>Heading</h2>
-          <p>Duis mollis, est non commodo luctus, nisi erat porttitor ligula, eget lacinia odio sem nec elit. Cras mattis consectetur purus sit amet fermentum. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh.</p>
-          <p><a class="btn btn-secondary" href="#" role="button">View details »</a></p>
+          <img src="https://static.timesofisrael.com/atlantajewishtimes/uploads/2017/01/trump-200x200.jpg" class="bd-placeholder-img rounded-circle" width="140" height="140">
+          <div class="mb-4"></div> <!-- spacer -->
+          <h2>Gary Roa</h2>
+          <p>Donec sed odio dui. Etiam porta sem malesuada magna mollis euismod. Nullam id dolor id nibh ultricies vehicula ut id elit. Morbi leo risus, porta ac consectetur ac, vestibulum at eros. Praesent commodo cursus magna.</p>          <p><a class="btn btn-secondary" href="#" role="button">View details »</a></p>
         </div><!-- /.col-lg-4 -->
         <div class="col-lg-4">
-          <svg class="bd-placeholder-img rounded-circle" width="140" height="140" xmlns="http://www.w3.org/2000/svg" preserveAspectRatio="xMidYMid slice" focusable="false" role="img" aria-label="Placeholder: 140x140"><title>Placeholder</title><rect width="100%" height="100%" fill="#777"></rect><text x="50%" y="50%" fill="#777" dy=".3em">140x140</text></svg>
-          <h2>Heading</h2>
-          <p>Donec sed odio dui. Cras justo odio, dapibus ac facilisis in, egestas eget quam. Vestibulum id ligula porta felis euismod semper. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus.</p>
-          <p><a class="btn btn-secondary" href="#" role="button">View details »</a></p>
+          <img src="https://thephilfactor.files.wordpress.com/2017/04/donald-trump-strong-200x200.png" class="bd-placeholder-img rounded-circle" width="140" height="140">
+          <div class="mb-4"></div> <!-- spacer -->
+          <h2>Jose Perez</h2>
+          <p>Donec sed odio dui. Etiam porta sem malesuada magna mollis euismod. Nullam id dolor id nibh ultricies vehicula ut id elit. Morbi leo risus, porta ac consectetur ac, vestibulum at eros. Praesent commodo cursus magna.</p>          <p><a class="btn btn-secondary" href="#" role="button">View details »</a></p>
         </div><!-- /.col-lg-4 -->
       </div><!-- /.row -->
 
@@ -85,7 +87,7 @@
           <p class="lead">Donec ullamcorper nulla non metus auctor fringilla. Vestibulum id ligula porta felis euismod semper. Praesent commodo cursus magna, vel scelerisque nisl consectetur. Fusce dapibus, tellus ac cursus commodo.</p>
         </div>
         <div class="col-md-5">
-          <svg class="bd-placeholder-img bd-placeholder-img-lg featurette-image img-fluid mx-auto" width="500" height="500" xmlns="http://www.w3.org/2000/svg" preserveAspectRatio="xMidYMid slice" focusable="false" role="img" aria-label="Placeholder: 500x500"><title>Placeholder</title><rect width="100%" height="100%" fill="#eee"></rect><text x="50%" y="50%" fill="#aaa" dy=".3em">500x500</text></svg>
+          <img src="https://dehayf5mhw1h7.cloudfront.net/wp-content/uploads/sites/220/2018/07/16151613/tmpb5a8c755-4238-412f-a85d-45d43b5b38d4-500x500.jpg" class="bd-placeholder-img bd-placeholder-img-lg featurette-image img-fluid mx-auto" width="500" height="500" preserveAspectRatio="xMidYMid slice" focusable="false" role="img" aria-label="Placeholder: 500x500">
         </div>
       </div>
 
@@ -97,7 +99,7 @@
           <p class="lead">Donec ullamcorper nulla non metus auctor fringilla. Vestibulum id ligula porta felis euismod semper. Praesent commodo cursus magna, vel scelerisque nisl consectetur. Fusce dapibus, tellus ac cursus commodo.</p>
         </div>
         <div class="col-md-5 order-md-1">
-          <svg class="bd-placeholder-img bd-placeholder-img-lg featurette-image img-fluid mx-auto" width="500" height="500" xmlns="http://www.w3.org/2000/svg" preserveAspectRatio="xMidYMid slice" focusable="false" role="img" aria-label="Placeholder: 500x500"><title>Placeholder</title><rect width="100%" height="100%" fill="#eee"></rect><text x="50%" y="50%" fill="#aaa" dy=".3em">500x500</text></svg>
+          <img src="https://pbs.twimg.com/profile_images/1734224713/The-Donald.jpg" class="bd-placeholder-img bd-placeholder-img-lg featurette-image img-fluid mx-auto" width="500" height="500" preserveAspectRatio="xMidYMid slice" focusable="false" role="img" aria-label="Placeholder: 500x500">
         </div>
       </div>
 
@@ -109,51 +111,29 @@
           <p class="lead">Donec ullamcorper nulla non metus auctor fringilla. Vestibulum id ligula porta felis euismod semper. Praesent commodo cursus magna, vel scelerisque nisl consectetur. Fusce dapibus, tellus ac cursus commodo.</p>
         </div>
         <div class="col-md-5">
-          <svg class="bd-placeholder-img bd-placeholder-img-lg featurette-image img-fluid mx-auto" width="500" height="500" xmlns="http://www.w3.org/2000/svg" preserveAspectRatio="xMidYMid slice" focusable="false" role="img" aria-label="Placeholder: 500x500"><title>Placeholder</title><rect width="100%" height="100%" fill="#eee"></rect><text x="50%" y="50%" fill="#aaa" dy=".3em">500x500</text></svg>
+          <img src="https://247wallst.com/wp-content/uploads/2017/04/donald-trump-official-portrait.jpg" class="bd-placeholder-img bd-placeholder-img-lg featurette-image img-fluid mx-auto" width="500" height="500" preserveAspectRatio="xMidYMid slice" focusable="false" role="img" aria-label="Placeholder: 500x500">
         </div>
       </div>
 
       <hr class="featurette-divider">
-
+      <div class="filler-box1">
+        <div class="filler-text">
+          <span>WELCOME TO MASTERCARD</span><div class="break"></div>
+          <h1>Experience the world with Mastercard®</h1>
+      </div>
+      </div>
       <!-- /END THE FEATURETTES -->
-
+      <div class="card text-center">
+      <div class="card-header">
+      Featured
+      </div>
+      <div class="card-body">
+      <h5 class="card-title">Special title treatment</h5>
+      <p class="card-text">With supporting text below as a natural lead-in to additional content.</p>
+      <a href="#" class="btn btn-primary">Go somewhere</a>
+      </div>
+      <div class="card-footer text-muted">
+      2 days ago
+      </div>
+      </div>
     </div>
-
-
-<div class="filler-box1">
-  <div class="filler-text">
-    <span>WELCOME TO MASTERCARD</span><div class="break"></div>
-    <h1>Experience the world with Mastercard®</h1>
-</div>
-</div>
-
-<div class="filler-box2"><br><br>
-  <span>PARENT COMPANY</span>
-  <div class="title" title="Master Card">mastecard</div>
-
-  <div class="filler-text1">
-    <p>Our <b>mission</b> is to connect and power an inclusive, digital economy that benefits everyone, everywhere by making transactions safe, simple, smart and accessible. We understand how interconnected the world is, and we see firsthand how our commitment to environmental and social responsibility – and our core values of operating ethically and responsibly and with decency – is directly connected to our continuing success as a business.</p>
-    <br>
-    <p>We are all in this crisis together, but we have a choice about how we come out of it: We can put things back the way they were before, or we can work together to rebuild a better, stronger, more resilient and more inclusive digital economy, one that benefits everyone, everywhere.</p>
-    <br>
-    <h1>employee benefits</h1>
-    <br>
-    <p>    Mastercard is not only a place where you can be you, it’s a place where your passion leads to possibilities – in your life, in your career and in the world. We have created benefits that enable you to unlock your potential in all areas of your life:</p>
-  </div>
-</div>
-
-<div class="filler-box3">
-  <div class="filler-text">
-    <span>GET A CARD</span>
-    <div class="break"></div>
-    <h1>Find the Mastercard that's right for you</h1>
-</div>
-</div>
-
-<div class="filler-box1">
-  <div class="filler-text">
-    <span>WELCOME TO MASTERCARD</span>
-    <div class="break"></div>
-    <h1>Experience the world with Mastercard®</h1>
-</div>
-</div>

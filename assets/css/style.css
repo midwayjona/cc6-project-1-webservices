@@ -7,7 +7,29 @@
   --input-padding-x: .75rem;
   --input-padding-y: .65rem;
 }
+#wrapper ul {
+    padding: 0;
+    margin: auto;
+    width: 80%;
+    list-style-type: none;
+}
 
+#wrapper a {
+  color: inherit;
+}
+
+#wrapper ul li {
+    padding: 30px;
+    margin-bottom: 20px;
+    display: table;
+    width: 100%;
+}
+
+#wrapper ul li img {
+    float: left;
+}
+
+#wrapper ul li .details {float: right;width: 75%;}
 
 ::-webkit-scrollbar {
     width: 0px;  /* Remove scrollbar space */

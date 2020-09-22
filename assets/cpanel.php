@@ -77,6 +77,20 @@ if ($_SESSION['cadmin'] == FALSE) {
             </a> -->
 
           </li>
+
+          <li class="nav-item">
+
+            <a class="nav-link" id="v-pills-account-tab" data-toggle="pill" href="#v-pills-account" role="tab" aria-controls="v-pills-account" aria-selected="false">
+
+              <svg class="svg-icon" viewBox="0 0 20 20" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1" stroke-linecap="round" stroke-linejoin="round" class="feather feather-home">
+                <path fill="none" d="M4.3,15.249H3.428c-0.241,0-0.436,0.195-0.436,0.436c0,0.241,0.195,0.437,0.436,0.437H4.3c0.241,0,0.436-0.195,0.436-0.437C4.736,15.444,4.541,15.249,4.3,15.249 M6.916,15.249H6.044c-0.241,0-0.436,0.195-0.436,0.436c0,0.241,0.195,0.437,0.436,0.437h0.872c0.241,0,0.436-0.195,0.436-0.437C7.352,15.444,7.157,15.249,6.916,15.249 M13.894,8.271h0.872c0.241,0,0.437-0.195,0.437-0.437c0-0.241-0.195-0.436-0.437-0.436h-0.872c-0.241,0-0.437,0.194-0.437,0.436C13.457,8.077,13.652,8.271,13.894,8.271 M4.3,7.399H3.428c-0.241,0-0.436,0.194-0.436,0.436c0,0.242,0.195,0.437,0.436,0.437H4.3c0.241,0,0.436-0.195,0.436-0.437C4.736,7.594,4.541,7.399,4.3,7.399 M15.638,11.324c-0.241,0-0.436,0.194-0.436,0.436s0.194,0.437,0.436,0.437s0.437-0.195,0.437-0.437S15.879,11.324,15.638,11.324 M14.766,15.249h-0.872c-0.241,0-0.437,0.195-0.437,0.436c0,0.241,0.195,0.437,0.437,0.437h0.872c0.241,0,0.437-0.195,0.437-0.437C15.202,15.444,15.007,15.249,14.766,15.249 M12.149,7.399h-0.872c-0.241,0-0.437,0.194-0.437,0.436c0,0.242,0.195,0.437,0.437,0.437h0.872c0.24,0,0.436-0.195,0.436-0.437C12.585,7.594,12.39,7.399,12.149,7.399 M17.818,9.144V5.655c0-0.939-0.745-1.7-1.676-1.737l-0.104-0.859L9.276,3.88L2.824,2.151l-0.471,1.76H2.119c-0.963,0-1.744,0.781-1.744,1.744v10.466c0,0.963,0.781,1.744,1.744,1.744h13.955c0.963,0,1.744-0.781,1.744-1.744v-1.744c0.963,0,1.744-0.781,1.744-1.745v-1.744C19.562,9.925,18.781,9.144,17.818,9.144 M16.946,5.655v0.242c-0.18-0.104-0.377-0.178-0.589-0.213L16.25,4.801C16.646,4.882,16.946,5.234,16.946,5.655 M15.277,4.029l0.184,1.507l-3.929-1.052L15.277,4.029z M3.44,3.219l9.09,2.436H2.788L3.44,3.219z M1.247,5.655c0-0.481,0.39-0.872,0.871-0.872l-0.24,0.896C1.65,5.711,1.438,5.786,1.247,5.897V5.655z M16.946,16.121c0,0.48-0.392,0.872-0.872,0.872H2.119c-0.482,0-0.872-0.392-0.872-0.872V7.399c0-0.481,0.39-0.872,0.872-0.872h13.955c0.48,0,0.872,0.391,0.872,0.872v1.744h-1.744c-0.964,0-1.745,0.781-1.745,1.744v1.744c0,0.964,0.781,1.745,1.745,1.745h1.744V16.121z M18.69,12.632c0,0.481-0.392,0.873-0.872,0.873h-2.616c-0.482,0-0.873-0.392-0.873-0.873v-1.744c0-0.481,0.391-0.872,0.873-0.872h2.616c0.48,0,0.872,0.391,0.872,0.872V12.632z M12.149,15.249h-0.872c-0.241,0-0.437,0.195-0.437,0.436c0,0.241,0.195,0.437,0.437,0.437h0.872c0.24,0,0.436-0.195,0.436-0.437C12.585,15.444,12.39,15.249,12.149,15.249 M9.533,15.249H8.661c-0.241,0-0.436,0.195-0.436,0.436c0,0.241,0.195,0.437,0.436,0.437h0.872c0.241,0,0.436-0.195,0.436-0.437C9.969,15.444,9.774,15.249,9.533,15.249 M6.916,7.399H6.044c-0.241,0-0.436,0.194-0.436,0.436c0,0.242,0.195,0.437,0.436,0.437h0.872c0.241,0,0.436-0.195,0.436-0.437C7.352,7.594,7.157,7.399,6.916,7.399 M9.533,7.399H8.661c-0.241,0-0.436,0.194-0.436,0.436c0,0.242,0.195,0.437,0.436,0.437h0.872c0.241,0,0.436-0.195,0.436-0.437C9.969,7.594,9.774,7.399,9.533,7.399"></path>
+              </svg>
+              Create Checking Account
+
+            </a>
+
+          </li>
+
           <li class="nav-item">
 
             <a class="nav-link" id="v-pills-costumers-tab" data-toggle="pill" href="#v-pills-costumers" role="tab" aria-controls="v-pills-costumers" aria-selected="false">
@@ -101,6 +115,8 @@ if ($_SESSION['cadmin'] == FALSE) {
             </a>
 
           </li>
+
+
           <li class="nav-item">
 
             <a class="nav-link" href="#">
@@ -259,7 +275,7 @@ if ($_SESSION['cadmin'] == FALSE) {
               </button>
             </div>
             ';
-          }elseif ($status == 'SUCCESS') {
+          }elseif ($status == 'SUCCESS' || $status == 'SIGNUP_SUCCESS') {
             // code...
             echo '
             <div class="alert alert-success alert-dismissible show fade my-4" id="signupAlert" role="alert">
@@ -468,7 +484,7 @@ if ($_SESSION['cadmin'] == FALSE) {
                 <!-- LIMIT -->
                 <div class="form-label-group mb-3">
                   <label for="input_climit">Credit Limit</label>
-                  <input type="text" name="climit" value='5000' id="input_climit" class="form-control amount">
+                  <input type="text" name="climit" value='15000.0000' id="input_climit" class="form-control amount">
                 </div>
                 <!-- CVV -->
                 <div class="form-label-group mb-3">
@@ -487,6 +503,56 @@ if ($_SESSION['cadmin'] == FALSE) {
               </form>
             </div>
           </div>
+
+
+          <!-- CREATE ACCOUNT TAB -->
+          <div class="tab-pane fade" id="v-pills-account" role="tabpanel" aria-labelledby="v-pills-account-tab">
+
+            <div class="col-lg-12 col-md-8">
+              <form class="form-signin"  action="<?php echo $path ?>includes/checking_register.inc.php" method="post">
+                <div class="text-center mb-4">
+                  <svg class="svg-icon" viewBox="0 0 20 20" width="72" height="72" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="0.5" stroke-linecap="round" stroke-linejoin="round" class="feather feather-home">
+                    <path fill="none" d="M4.3,15.249H3.428c-0.241,0-0.436,0.195-0.436,0.436c0,0.241,0.195,0.437,0.436,0.437H4.3c0.241,0,0.436-0.195,0.436-0.437C4.736,15.444,4.541,15.249,4.3,15.249 M6.916,15.249H6.044c-0.241,0-0.436,0.195-0.436,0.436c0,0.241,0.195,0.437,0.436,0.437h0.872c0.241,0,0.436-0.195,0.436-0.437C7.352,15.444,7.157,15.249,6.916,15.249 M13.894,8.271h0.872c0.241,0,0.437-0.195,0.437-0.437c0-0.241-0.195-0.436-0.437-0.436h-0.872c-0.241,0-0.437,0.194-0.437,0.436C13.457,8.077,13.652,8.271,13.894,8.271 M4.3,7.399H3.428c-0.241,0-0.436,0.194-0.436,0.436c0,0.242,0.195,0.437,0.436,0.437H4.3c0.241,0,0.436-0.195,0.436-0.437C4.736,7.594,4.541,7.399,4.3,7.399 M15.638,11.324c-0.241,0-0.436,0.194-0.436,0.436s0.194,0.437,0.436,0.437s0.437-0.195,0.437-0.437S15.879,11.324,15.638,11.324 M14.766,15.249h-0.872c-0.241,0-0.437,0.195-0.437,0.436c0,0.241,0.195,0.437,0.437,0.437h0.872c0.241,0,0.437-0.195,0.437-0.437C15.202,15.444,15.007,15.249,14.766,15.249 M12.149,7.399h-0.872c-0.241,0-0.437,0.194-0.437,0.436c0,0.242,0.195,0.437,0.437,0.437h0.872c0.24,0,0.436-0.195,0.436-0.437C12.585,7.594,12.39,7.399,12.149,7.399 M17.818,9.144V5.655c0-0.939-0.745-1.7-1.676-1.737l-0.104-0.859L9.276,3.88L2.824,2.151l-0.471,1.76H2.119c-0.963,0-1.744,0.781-1.744,1.744v10.466c0,0.963,0.781,1.744,1.744,1.744h13.955c0.963,0,1.744-0.781,1.744-1.744v-1.744c0.963,0,1.744-0.781,1.744-1.745v-1.744C19.562,9.925,18.781,9.144,17.818,9.144 M16.946,5.655v0.242c-0.18-0.104-0.377-0.178-0.589-0.213L16.25,4.801C16.646,4.882,16.946,5.234,16.946,5.655 M15.277,4.029l0.184,1.507l-3.929-1.052L15.277,4.029z M3.44,3.219l9.09,2.436H2.788L3.44,3.219z M1.247,5.655c0-0.481,0.39-0.872,0.871-0.872l-0.24,0.896C1.65,5.711,1.438,5.786,1.247,5.897V5.655z M16.946,16.121c0,0.48-0.392,0.872-0.872,0.872H2.119c-0.482,0-0.872-0.392-0.872-0.872V7.399c0-0.481,0.39-0.872,0.872-0.872h13.955c0.48,0,0.872,0.391,0.872,0.872v1.744h-1.744c-0.964,0-1.745,0.781-1.745,1.744v1.744c0,0.964,0.781,1.745,1.745,1.745h1.744V16.121z M18.69,12.632c0,0.481-0.392,0.873-0.872,0.873h-2.616c-0.482,0-0.873-0.392-0.873-0.873v-1.744c0-0.481,0.391-0.872,0.873-0.872h2.616c0.48,0,0.872,0.391,0.872,0.872V12.632z M12.149,15.249h-0.872c-0.241,0-0.437,0.195-0.437,0.436c0,0.241,0.195,0.437,0.437,0.437h0.872c0.24,0,0.436-0.195,0.436-0.437C12.585,15.444,12.39,15.249,12.149,15.249 M9.533,15.249H8.661c-0.241,0-0.436,0.195-0.436,0.436c0,0.241,0.195,0.437,0.436,0.437h0.872c0.241,0,0.436-0.195,0.436-0.437C9.969,15.444,9.774,15.249,9.533,15.249 M6.916,7.399H6.044c-0.241,0-0.436,0.194-0.436,0.436c0,0.242,0.195,0.437,0.436,0.437h0.872c0.241,0,0.436-0.195,0.436-0.437C7.352,7.594,7.157,7.399,6.916,7.399 M9.533,7.399H8.661c-0.241,0-0.436,0.194-0.436,0.436c0,0.242,0.195,0.437,0.436,0.437h0.872c0.241,0,0.436-0.195,0.436-0.437C9.969,7.594,9.774,7.399,9.533,7.399"></path>
+                  </svg>
+                  <h1 class="h3 mb-3 font-weight-normal">Create a Checking Account</h1>
+                  <h6>Easily store money and pay your credit card <b>online</b>.</h6>
+                </div>
+
+                <!-- FUNCTIONALITY -->
+
+                <div class="mb-5"></div>
+                <!-- CUSTOMER SELECTION -->
+                <div class="form-label-group mb-3">
+                  <!-- <input type="text" name="cuser" id="inputUsername" class="form-control" placeholder="Username" required="">  -->
+                  <label for="input_cid">Costumer Identification Number</label>
+                  <select id="input_cid" name="cid" class="form-control selectpicker" title="" required>
+                       <option disabled selected></option>
+                       <?php
+                       $sql = 'SELECT cid, cname FROM costumer';
+                       $stmt = $conn->prepare($sql);
+                       $stmt->execute();
+                       $row = $stmt->fetchAll();
+                       // SELECT COSTUMER
+                       foreach ($row as $row) {
+                         echo '<option value="'.$row->cid.'">'.$row->cname.' [ '.$row->cid.' ]</option>';
+                       }
+                        ?>
+                    </select>
+                </div>
+                <!-- FUNDS -->
+                <div class="form-label-group mb-3">
+                  <label for="input_cfund">Funds</label>
+                  <input type="text" name="cfund" value='15000.00' id="input_cfund" class="form-control camount">
+                </div>
+
+                <div class="mb-5"></div>
+                <button class="btn btn-lg btn-primary btn-block" type="submit" name="checking-register-submit">Create Checking Account</button>
+
+              </form>
+            </div>
+          </div>
+
+
 
           <!-- COSTUMERS TAB -->
           <div class="tab-pane fade" id="v-pills-costumers" role="tabpanel" aria-labelledby="v-pills-costumers-tab">
@@ -626,81 +692,7 @@ if ($_SESSION['cadmin'] == FALSE) {
     </div>
   </div>
 
-
-
-<!-- footer -->
-	<!-- <script>
-		var progress = document.getElementById('animationProgress');
-		var config = {
-			type: 'line',
-			data: {
-				labels: ['January', 'February', 'March', 'April', 'May', 'June', 'July'],
-				datasets: [{
-					label: 'My First dataset',
-					fill: false,
-					borderColor: window.chartColors.red,
-					backgroundColor: window.chartColors.red,
-					data: [
-						randomScalingFactor(),
-						randomScalingFactor(),
-						randomScalingFactor(),
-						randomScalingFactor(),
-						randomScalingFactor(),
-						randomScalingFactor(),
-						randomScalingFactor()
-					]
-				}, {
-					label: 'My Second dataset ',
-					fill: false,
-					borderColor: window.chartColors.blue,
-					backgroundColor: window.chartColors.blue,
-					data: [
-						randomScalingFactor(),
-						randomScalingFactor(),
-						randomScalingFactor(),
-						randomScalingFactor(),
-						randomScalingFactor(),
-						randomScalingFactor(),
-						randomScalingFactor()
-					]
-				}]
-			},
-			options: {
-				title: {
-					display: true,
-					text: 'Chart.js Line Chart - Animation Progress Bar'
-				},
-				animation: {
-					duration: 2000,
-					onProgress: function(animation) {
-						progress.value = animation.currentStep / animation.numSteps;
-					},
-					onComplete: function() {
-						window.setTimeout(function() {
-							progress.value = 0;
-						}, 2000);
-					}
-				}
-			}
-		};
-
-		window.onload = function() {
-			var ctx = document.getElementById('canvas').getContext('2d');
-			window.myLine = new Chart(ctx, config);
-		};
-
-		document.getElementById('randomizeData').addEventListener('click', function() {
-			config.data.datasets.forEach(function(dataset) {
-				dataset.data = dataset.data.map(function() {
-					return randomScalingFactor();
-				});
-			});
-
-			window.myLine.update();
-		});
-	</script> -->
-
-        <script>
+  <script>
 
 
         var ctxi = document.getElementById('myChart').getContext('2d');
@@ -712,35 +704,26 @@ if ($_SESSION['cadmin'] == FALSE) {
                 data: [
                   randomScalingFactor(),
                   randomScalingFactor(),
-                  randomScalingFactor(),
-                  randomScalingFactor(),
-                  randomScalingFactor(),
                 ],
                 backgroundColor: [
-                  window.chartColors.red,
                   window.chartColors.orange,
                   window.chartColors.yellow,
-                  window.chartColors.green,
-                  window.chartColors.blue,
                 ],
                 label: 'Dataset 1'
               }],
               labels: [
-                'Red',
-                'Orange',
-                'Yellow',
-                'Green',
-                'Blue'
+                'Costumers',
+                'Cards'
               ]
             },
             options: {
               responsive: true,
               legend: {
-                position: 'top',
+                position: 'bottom',
               },
               title: {
                 display: true,
-                text: 'Balanace'
+                text: 'Bank Statistics'
               },
               animation: {
                 duration: 5000,
@@ -756,7 +739,7 @@ if ($_SESSION['cadmin'] == FALSE) {
         var ctx = document.getElementById('myChart2').getContext('2d');
         var chart = new Chart(ctx, {
             // The type of chart we want to create
-            type: 'doughnut',
+            type: 'polarArea',
             data: {
               datasets: [{
                 data: [
@@ -786,7 +769,7 @@ if ($_SESSION['cadmin'] == FALSE) {
             options: {
               responsive: true,
               legend: {
-                position: 'top',
+                position: 'bottom',
               },
               title: {
                 display: true,

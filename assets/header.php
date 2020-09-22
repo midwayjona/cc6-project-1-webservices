@@ -1,5 +1,6 @@
 <!-- relative root -->
 <?php
+date_default_timezone_set("America/Guatemala");
 if(!isset($_SESSION)) { session_start(); }
 $path = '/cc6-project-1-webservices/';
 setlocale(LC_MONETARY, 'en_US.utf8');
