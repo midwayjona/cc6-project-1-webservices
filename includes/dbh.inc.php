@@ -1,14 +1,9 @@
 <?php
 
 $dbHost = 'localhost';
-//local
 $dbName = 'cc6-pj1';
 $dbUser = 'midwayjona';
 $dbPassword = '';
-// inmotion
-// $dbName = 'stateh7_cc6_pj1';
-// $dbUser = 'stateh7_cc6_user';
-// $dbPassword = 'xzhX8DnnLIbB';
 
 // Set DSN (datasource name)
 $dbDSN = 'pgsql:host='.$dbHost.';dbname='.$dbName;
